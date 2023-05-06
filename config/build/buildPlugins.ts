@@ -30,6 +30,5 @@ export function buildPlugins(options: BuildOptions): webpack.WebpackPluginInstan
         )
     }
 
-
     return plugins
 }

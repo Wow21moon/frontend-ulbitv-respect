@@ -3,8 +3,6 @@ import ThemeDecorator from 'shared/StyleDecorators/ThemeDecorator'
 import { Theme } from 'app/providers/ThemeProviders'
 import { Sidebar } from './Sidebar'
 
-
-
 const meta: Meta<typeof Sidebar> = {
     title: 'widgets/Sidebar',
     component: Sidebar,
@@ -13,7 +11,6 @@ const meta: Meta<typeof Sidebar> = {
 
 export default meta
 type Story = StoryObj<typeof Sidebar>;
-
 
 export const Light: Story = {}
 
