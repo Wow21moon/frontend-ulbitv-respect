@@ -1,0 +1,15 @@
+.errorFallback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: #9f9f9f;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.errorFallback p {
+    font: var(--font-l);
+    margin-bottom: 30px;
+}

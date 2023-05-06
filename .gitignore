@@ -1,0 +1,7 @@
+/build
+extractedTranslations
+node_modules
+.idea
+.prettierrc
+.vscode
+/extractedTranslations
