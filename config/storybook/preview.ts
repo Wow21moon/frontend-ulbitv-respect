@@ -4,7 +4,6 @@ import MainDecorator from '../../src/shared/StyleDecorators/MainDecorator'
 import ThemeDecorator from '../../src/shared/StyleDecorators/ThemeDecorator'
 import RouterDecorator from '../../src/shared/StyleDecorators/RouterDecorator'
 
-
 const preview: Preview = {
     decorators: [
         MainDecorator,
@@ -21,7 +20,5 @@ const preview: Preview = {
         },
     },
 }
-
-
 
 export default preview

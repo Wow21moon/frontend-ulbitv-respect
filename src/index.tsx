@@ -7,7 +7,6 @@ import { ErrorBoundary } from 'react-error-boundary'
 import { ErrorFallback } from 'shared/ui/ErrorFallback/ErrorFallback'
 import { Suspense } from 'react'
 
-
 render(
     <BrowserRouter>
         <Suspense fallback="">

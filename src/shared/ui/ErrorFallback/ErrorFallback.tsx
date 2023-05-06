@@ -9,7 +9,6 @@ interface ErrorFallbackProps {
     resetErrorBoundary: () => void
 }
 
-
 export const ErrorFallback: FC<ErrorFallbackProps> = ({ error, resetErrorBoundary }) => {
     console.log(error, resetErrorBoundary)
 
