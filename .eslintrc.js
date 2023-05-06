@@ -35,10 +35,10 @@ module.exports = {
         'no-multiple-empty-lines': 'off',
         'object-curly-newline': 'off',
         'react/jsx-uses-react': 'off',
-        'i18next/no-literal-string': ['warn', { markupOnly: true, ignoreAttribute: ['to'] }],
+        'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['to'] }],
         'max-len': ['error', { code: 100, ignoreComments: true }],
     },
     globals: {
         __IS_DEV__: true,
     },
-};
+}
